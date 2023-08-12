@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felipe Pecil - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <link rel="stylesheet" href="src/css/variaveis.css">
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">FP</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Felipe Pecil</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/felipe-pecil/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5551996615010" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/FelipePecil" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/felipepecil/" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Felipe" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Felipe Pecil e sou um desenvolvedor frontend em
+              formação!</strong>
+              Possuo experiência em hosting, gestão de servidores Linux e Windows, configuração e implantação, monitoramento e desempenho, suporte técnico, escalonamento e dimensionamento,automação e orquestração. 
+              Sou apaixonado pela área de tecnologia, tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar as pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="src/arquivo/Curriculo Felipe 2023.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Conhecimento em Javascript, incluindo sintaxe, estruturas de controle, tipos de dados, funções e manipulação de objetos.
+            Manipulação do DOM, assincronia, frameworks e bibliotecas, conhecimento de APIs e requisições HTTP, depuração e testes, bem como performance e otimização.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Conhecimento em HTML5, estruturação de conteúdo, acessibilidade, integração com mídia, formulação avançados, integração com CSS, responsividade e mobile, SEO (Search Engine Optimization, Validação e Depuração, atualização constante e compatibilidade com navegadores.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Conhecimento em CSS3, layout responsivo, seletores avançados, design visual, animações e transições, flexibilidade estilística, pré-processadores CSS, depuração de estilos, conhecimento em layouts complexos, integração com HTML e JavaScript.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Conhecimento em controle de versão, comandos git, gerenciamento de ramificações, pull requests (PRs), colaboração em equipe, resolução de conflitos, GitHub Issues e Projetos, Integração Contínua e Automação, versionamento semântico, markdown, segurança e privacidade e exploração de repositórios</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Conhecimento em inicialização de repositório, controle de versão local, gerenciamento de ramificações, resolução de conflitos, uso de tags, uso de tags, integração remota, trabalho com repositórios remotos, histórico e visualização, git ignore, rebase e merge, cherry-pick, bisect, segurança e acesso, e customização do ambiente. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="http://pecil.kinghost.net">
+            <img src="src/imagens/portfolio.png" alt="Portfólio" />
+            <h3>Projeto Porfólio</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto Realizando utilizando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver na Kinghost</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="http://pecil.kinghost.net/imc">
+            <img src="src/imagens/imc.png" alt="IMC" />
+            <h3>Projeto IMC</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto realizado com PHP, JavaScript e Mysql</p>
+              <p>🔗 Ver na KInghost</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="http://xmen.pecil.kinghost.net/">
+            <img src="src/imagens/xmen.png" alt="Xmen" />
+            <h3>Projeto Xmen</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto realizado com HTML, CSS e Javascript</p>
+              <p>🔗 Ver na Kinghost</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="http://marvel.pecil.kinghost.net/">
+            <img src="src/imagens/api_marvel.png" alt="Api-Marvel" />
+            <h3>Projeto Api_Marvel</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto realizado com HTML, CSS e Javascript, integrando a Api da Marvel</p>
+              <p>🔗 Ver na Kinghost</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/felipe-pecil" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5551996615010" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/FelipePecil" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/felipepecil/" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
